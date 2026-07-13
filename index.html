@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mapa Indoor Shopping</title>
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+
+  <link rel="stylesheet" href="assets/style/index.css">
+
+</head>
+
+<body>
+  <div class="totem-layout">
+
+    <main class="map-area">
+      <div class="panel">
+        <h3>Mapa Indoor POC</h3>
+
+        <label>Origem</label>
+        <select id="origem"></select>
+
+        <label>Destino</label>
+        <select id="destino"></select>
+
+        <button onclick="drawRoute()">Traçar rota</button>
+        <button onclick="clearRoute()" style="background:#555;">Limpar rota</button>
+
+        <div class="info" id="steps"></div>
+        <div class="info" id="coords">Clique no mapa para ver coordenadas.</div>
+      </div>
+
+      <div id="map"></div>
+    </main>
+
+    <aside class="ad-area">
+      <div class="ad-title">Publicidade</div>
+
+      <div class="ad-slot">
+        <img id="adBanner" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTrvecNNgUe3ZV3879-XTT8TYseU-dr39gT7xjIInqUUYOVBrh5VaiKw&s=10" alt="Anúncio" />
+      </div>
+
+      <div class="ad-footer">
+        Conheça as Lojas
+      </div>
+    </aside>
+
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="scripts/index.js"></script>
+</body>
+
+</html>
