@@ -346,10 +346,10 @@ function fillSelects() {
 
   // Origem padrão ao carregar a POC.
   // Para o totem real, provavelmente será o ponto "Você está aqui".
-  origem.value = "recepcao";
+  origem.value = "entrada1";
 
   // Destino padrão ao carregar a POC.
-  destino.value = "inova";
+  destino.value = "games";
 }
 
 // Traça a rota entre origem e destino selecionados.

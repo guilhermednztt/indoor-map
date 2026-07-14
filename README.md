@@ -124,7 +124,7 @@ graph LR
 1. **Clone ou baixe o projeto**
    ```bash
    git clone git@github.com:guilhermednztt/indoor-map.git
-   cd mapa-indoor
+   cd indoor-map
    ```
 
 2. **Rode localmente** (necessário para funcionamento apropriado)
